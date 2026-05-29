@@ -1,0 +1,22 @@
+{
+  "name": "contract-analysis-mcp-server",
+  "version": "0.1.0",
+  "description": "A contract analysis MCP server scaffolded by MCP-Law — clause extraction, risk scoring, compliance checks",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tensflare/mcp-law": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
