@@ -1,6 +1,6 @@
 {
   "name": "@tensflare/mcp-law",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Legal Tools for the Agentic Era — scaffolding and schemas for building jurisdiction-aware legal MCP servers",
   "type": "module",
   "bin": {
