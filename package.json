@@ -4,7 +4,7 @@
   "description": "Legal Tools for the Agentic Era — scaffolding and schemas for building jurisdiction-aware legal MCP servers",
   "type": "module",
   "bin": {
-    "mcp-law": "./dist/cli.js"
+    "mcp-law": "dist/cli.js"
   },
   "exports": {
     ".": {
@@ -20,7 +20,10 @@
       "import": "./dist/server/index.js"
     }
   },
-  "files": ["dist", "templates"],
+  "files": [
+    "dist",
+    "templates"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli.ts",
@@ -49,7 +52,15 @@
   "bugs": {
     "url": "https://github.com/tensflare/mcp-law/issues"
   },
-  "keywords": ["mcp", "legal", "law", "model-context-protocol", "ai", "contracts", "jurisdiction"],
+  "keywords": [
+    "mcp",
+    "legal",
+    "law",
+    "model-context-protocol",
+    "ai",
+    "contracts",
+    "jurisdiction"
+  ],
   "author": "Tensflare Inc.",
   "license": "Apache-2.0",
   "engines": {
