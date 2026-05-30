@@ -2,6 +2,10 @@
 
 **Legal Tools for the Agentic Era**
 
+<div align="center">
+  <img src="./social-preview.png" alt="MCP-Law Social Preview" width="100%" />
+</div>
+
 [![npm version](https://img.shields.io/npm/v/@tensflare/mcp-law)](https://www.npmjs.com/package/@tensflare/mcp-law)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![CI](https://github.com/tensflare/mcp-law/actions/workflows/ci.yml/badge.svg)](https://github.com/tensflare/mcp-law/actions/workflows/ci.yml)
